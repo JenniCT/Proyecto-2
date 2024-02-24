@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo https</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul class="cajalis">
+                    <li><a  href="index.html">Protocolo HTTP</a></li>
+                    <li style="float:inline-end" ><a  href="contacto.html">Contactame</a></li>
+                    <li style="float:inline-end" class="submenu">
+                        <a class="subdes">Contenido</a>
+                        <div class="submenu-content">
+                            <a href="P1.html">¿Para que sirve?</a>
+                            <a href="P2.html">¿Cómo funciona el proticola http?</a>
+                            <a href="P3.html">¿Por qué elegir HTTPS en lugar de HTTP?</a>
+                        </div>
+                    </li>
+                    <li style="float:inline-end"><a  href="index.html">Inicio</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <h2>¿Cómo funciona el protocolo http?</h2>
+                    <p>El funcionamiento del http se basa en un esquema de 
+                        petición-respuesta entre el servidor web y el 
+                        “agente usuario” (del inglés user agent) o cliente 
+                        que realiza la solicitud de transmisión de datos. 
+                        Un cliente puede ser un explorador determinado, 
+                        cuando intentamos abrir una página web, o los 
+                        rastreadores web (webcrawlers o arañas web) que las 
+                        inspeccionan. </p>
+                    <p>A ellos el servidor brinda una respuesta estructurada de 
+                        modo puntual y dotada de una serie de metadatos, que 
+                        establecen las pautas para el inicio, desarrollo y cierre 
+                        de la transmisión de la información. Estos son los 
+                        “métodos de petición”, es decir, los comandos que disparan
+                        la ejecución de recursos determinados, cuyos archivos residen 
+                        en el servidor. Por ejemplo: Al abrir una página web específica, 
+                        el intercambio informativo entre nuestro explorador web y el 
+                        servidor donde reside la información establecerá de qué manera 
+                        debe transmitirse la información, en qué lugar están las imágenes 
+                        y en qué orden se me mostrarán, etc. Este intercambio de comandos 
+                        de solicitud y códigos de respuesta da como resultado la 
+                        representación en mi computador de la misma información contenida 
+                        originalmente en el servidor, que puede estar a miles de kilómetros 
+                        de distancia. HTTP transmite datos no cifrados, lo que significa que 
+                        la información enviada desde un navegador puede ser interceptada y 
+                        leída por terceros. Este no era el proceso ideal, por lo que se 
+                        extendió a HTTPS para agregar otro nivel de seguridad a la comunicación. 
+                        HTTPS combina las solicitudes y respuestas HTTP con la tecnología SSL y TLS. </p>
+                    <p>Los sitios web HTTPS deben obtener un certificado SSL/TLS de una autoridad 
+                        de certificación (CA) independiente. Estos sitios web comparten el certificado
+                        con el navegador antes de intercambiar datos para generar confianza. 
+                        El certificado SSL también contiene información criptográfica, 
+                        por lo que el servidor y los navegadores web pueden intercambiar 
+                        datos cifrados o codificados. El proceso funciona de la siguiente 
+                        manera: Para visitar un sitio web HTTPS, debe escribir el formato 
+                        de URL https://en la barra de direcciones del navegador. 
+                        El navegador intenta verificar la autenticidad del sitio mediante 
+                        la solicitud del certificado SSL del servidor.El servidor envía el 
+                        certificado SSL que contiene una clave pública como respuesta. 
+                        El certificado SSL del sitio web demuestra la identidad del servidor. 
+                        Una vez que el navegador está satisfecho, utiliza la clave pública 
+                        para cifrar y enviar un mensaje que contiene una clave de sesión secreta. 
+                        El servidor web utiliza su clave privada para descifrar el mensaje y 
+                        recuperar la clave de sesión. A continuación, cifra la clave de sesión 
+                        y envía un mensaje de confirmación al navegador. Ahora, tanto el navegador 
+                        como el servidor web cambian a usar la misma clave de sesión para intercambiar 
+                        mensajes de forma segura.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

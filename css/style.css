@@ -1,0 +1,79 @@
+body{
+    background-color: #112731;
+    
+}
+.cajalis{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #112731;
+    border: 1px;
+    border-bottom-color: #7A8EA1;
+    border-bottom-style: solid;
+}
+
+li{
+    float: left;/*Los elementos flotan de un lado*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a, .subdes{
+
+    display: inline-block; /*Especifica el relleno*/
+    color: #A9B6C3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+   
+}
+li a:hover , .submenu:hover .submenu{
+    background-color:#06334B;
+}
+li.submenu{
+    display: inline-block;
+}
+.submenu-content{
+    display: none;
+    position: absolute;
+    background-color: #112731;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.submenu-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.submenu-content a:hover{
+    background-color: #06334B;;
+}
+.submenu:hover .submenu-content{
+    display: block;
+}
+ul .lista{
+    background-color: #112731;
+    color: #A9B6C3;
+    list-style-type:disc;
+    display: list-item;
+    float: none;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #A9B6C3;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #74839B;
+    text-align: center;
+}
+a{
+    color: #A9B6C3;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
